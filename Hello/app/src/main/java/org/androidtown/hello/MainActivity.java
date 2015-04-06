@@ -24,7 +24,11 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void onButton2Clicked(View v) {
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> parent of 8d6e8ba... gogo
        Intent myIntent = new Intent(Intent.ACTION_VIEW,Uri.parse("tel:010-1000-1000"));
         startActivity(myIntent);
     }
