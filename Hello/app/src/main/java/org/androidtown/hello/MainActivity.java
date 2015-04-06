@@ -17,6 +17,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
     }
 
+    // gogogogogo
     public void onButton1Clicked(View v) {
         Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.naver.com"));
         startActivity(myIntent);
